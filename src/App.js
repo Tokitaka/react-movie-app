@@ -6,13 +6,14 @@ import Home from "./routes/Home";
 import Detail from "./routes/Detail";
 
 function App() {
+  const URL = process.env.PUBLIC_URL;
   const router = createBrowserRouter([
     {
-      path: "/",
+      path: URL+ "/",
       element: <Home />
     },
     {
-      path: "/movie/:id",
+      path: URL + "/movie/:id",
       element: <Detail />
     }
   ]);

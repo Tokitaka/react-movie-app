@@ -1,0 +1,15 @@
+.movie{
+    padding-top: 13px;
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.movie__title {
+    font-size: 29px;
+    margin-bottom: 18px;
+}
+.movie__img {
+    height: 380px;
+    width: 290px;
+}
